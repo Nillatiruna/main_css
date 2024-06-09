@@ -1,0 +1,24 @@
+.file-link {
+  width: auto;
+  height: auto;
+}
+
+.light-link {
+  color: var(--light-color) !important;
+}
+
+.black-link {
+  color: var(--primary-color);
+}
+
+.active-link {
+  cursor: pointer;
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.link-underline {
+  cursor: pointer;
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
